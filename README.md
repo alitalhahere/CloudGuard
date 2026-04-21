@@ -64,18 +64,6 @@ JSON output (for SIEM or automation):
 python run.py --ouput json
 ```
 
-## 📊 Sample Output (Table)
-
-
-+---------+------------------------+----------------------------------------+------------+
-| Service | Resource               | Issue                                  | Severity   |
-+=========+========================+========================================+============+
-| S3      | my-public-bucket       | Public READ access                     | HIGH       |
-| EC2     | web-sg (sg-123456)     | Open to world on port 22-22            | CRITICAL   |
-| IAM     | alice                  | No MFA device assigned                 | MEDIUM     |
-| RDS     | prod-db                | Storage not encrypted                  | MEDIUM     |
-+---------+------------------------+----------------------------------------+------------+
-
 ## 🧪 Testing with a Free Tier AWS Account
 
 Create an AWS account (free tier includes S3, EC2, IAM, RDS).
